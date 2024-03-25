@@ -1,9 +1,10 @@
 import mysql.connector as mysql
 
-conn = mysql.connect(host='localhost', 
-                    user='root', 
-                    password='root', 
-                    database='Quiz')
+# use ur own user and password
+# conn = mysql.connect(host='localhost', 
+#                     user='root', 
+#                     password='root', 
+#                     database='Quiz')
 
 myc = conn.cursor()
 
