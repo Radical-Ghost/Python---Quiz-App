@@ -21,7 +21,6 @@ class QuizApp:
         self.skip = None
         self.time_ring = None
         self.answer = None
-        self.INI = initialize(self)
         self.countdown_time = 30
         self.countdown_id = None
 
@@ -122,6 +121,7 @@ class QuizApp:
     #quiz start
     def quiz_start(self, new):
         if new == "home":
+            print("Hi")
             self.INI = initialize(self)
 
         result = self.INI.q_no_fetch()

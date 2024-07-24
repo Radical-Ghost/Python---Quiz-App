@@ -88,3 +88,6 @@ class initialize:
     def fetch_leaderboard(self):
         myc.execute("SELECT name, score FROM leaderboard ORDER BY score DESC")
         return myc.fetchall()
+
+
+#ahhahahahahh
